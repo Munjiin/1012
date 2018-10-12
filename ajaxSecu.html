@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>필터 막을 시 실행안되는 ajax</title>
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+    var path="http://10.10.10.96:8080/jsonEx/quiz";
+    $.getJSON(path,function (data) {
+        console.log(data) //필터를 막아서 실행 시 에러 남.
+    })
+
+    //프록시로 뚫어보기기
+</script>
+
+</body>
+</html>
